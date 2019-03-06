@@ -14,7 +14,7 @@
                         </div>
                     @endif
 
-                    You are logged in!
+                    <a href="{{URL::to('/admin')}}" class="btn btn-primary">Go to Admin page</a>
                 </div>
             </div>
         </div>
